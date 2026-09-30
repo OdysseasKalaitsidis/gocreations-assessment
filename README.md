@@ -6,7 +6,11 @@ REST API σε PHP για τη διαχείριση οχημάτων, με MySQL 
 
 Το project τρέχει με Docker, Docker Compose και Bash, Curl για δοκιμές.
 
+Εγκατάσταση και εκτέλεση
+
 ```bash
+git clone https://github.com/OdysseasKalaitsidis/gocreations-assessment.git
+cd gocreations-assessment
 cp .env.example .env
 docker compose up --build -d
 ```
